@@ -1,0 +1,514 @@
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2
+F:/ruby/Ruby26-x64/bin/ruby.exe -I F:/ruby/Ruby26-x64/lib/ruby/2.6.0 -r ./siteconf20200604-5032-9u2kqk.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... no
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... no
+checking for -Wunsafe-loop-optimizations option to compiler... yes
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... no
+checking for gobject-2.0 version (>= 2.12.0)... yes
+checking for gthread-2.0... yes
+checking for unistd.h... yes
+checking for io.h... yes
+checking for g_spawn_close_pid() in glib.h... yes
+checking for g_thread_init() in glib.h... yes
+checking for g_main_depth() in glib.h... yes
+checking for g_listenv() in glib.h... yes
+checking for rb_check_array_type() in ruby.h... yes
+checking for rb_check_hash_type() in ruby.h... yes
+checking for rb_exec_recursive() in ruby.h... yes
+checking for rb_errinfo() in ruby.h... yes
+checking for rb_thread_call_without_gvl() in ruby.h... yes
+checking for ruby_native_thread_p() in ruby.h... yes
+checking for rb_thread_call_with_gvl() in ruby.h... yes
+checking for rb_gc_register_mark_object() in ruby.h... yes
+checking for rb_exc_new_str() in ruby.h... yes
+checking for rb_enc_str_new_static() in ruby.h... yes
+checking for curr_thread in ruby.h,node.h... no
+checking for rb_curr_thread in ruby.h,node.h... no
+creating ruby-glib2.pc
+creating glib-enum-types.c
+creating glib-enum-types.h
+creating Makefile
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2
+make "DESTDIR=" clean
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2
+make "DESTDIR="
+compiling glib-enum-types.c
+compiling rbglib-bytes.c
+compiling rbglib-gc.c
+compiling rbglib-variant-type.c
+compiling rbglib-variant.c
+compiling rbglib.c
+rbglib.c: In function 'rbg_scan_options':
+rbglib.c:929:22: warning: unknown conversion type character 'l' in format [-Wformat=]
+  929 |                      "options must be Hash or nil: %+" PRIsVALUE,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib.c:23:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib.c:929:22: warning: too many arguments for format [-Wformat-extra-args]
+  929 |                      "options must be Hash or nil: %+" PRIsVALUE,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbglib.c:983:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  983 |                  "unexpected key(s) exist: %+" PRIsVALUE
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib.c:23:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib.c:983:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  983 |                  "unexpected key(s) exist: %+" PRIsVALUE
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib.c:23:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib.c:983:18: warning: too many arguments for format [-Wformat-extra-args]
+  983 |                  "unexpected key(s) exist: %+" PRIsVALUE
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rbglibdeprecated.c
+compiling rbglib_bookmarkfile.c
+rbglib_bookmarkfile.c: In function 'rg_set_groups':
+rbglib_bookmarkfile.c:388:47: warning: passing argument 3 of 'g_bookmark_file_set_groups' from incompatible pointer type [-Wincompatible-pointer-types]
+  388 |     g_bookmark_file_set_groups(bookmark, uri, groups, n);
+      |                                               ^~~~~~
+      |                                               |
+      |                                               gchar ** {aka char **}
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib.h:37,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/gobject/gbinding.h:28,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib-object.h:22,
+                 from rbgobject.h:25,
+                 from rbgprivate.h:31,
+                 from rbglib_bookmarkfile.c:22:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib/gbookmarkfile.h:134:27: note: expected 'const gchar **' {aka 'const char **'} but argument is of type 'gchar **' {aka 'char **'}
+  134 |           const gchar   **groups,
+      |           ~~~~~~~~~~~~~~~~^~~~~~
+compiling rbglib_convert.c
+compiling rbglib_datetime.c
+rbglib_datetime.c: In function 'rg_s_now':
+rbglib_datetime.c:78:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+   78 |                  "timezone must be nil, :local, :utc or GLib::TimeZone: "
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_datetime.c:20:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib_datetime.c:78:18: warning: too many arguments for format [-Wformat-extra-args]
+   78 |                  "timezone must be nil, :local, :utc or GLib::TimeZone: "
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbglib_datetime.c: In function 'rg_initialize':
+rbglib_datetime.c:128:22: warning: unknown conversion type character 'l' in format [-Wformat=]
+  128 |                      ":timezone must be nil, :local or :utc: %+" PRIsVALUE,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_datetime.c:20:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib_datetime.c:128:22: warning: too many arguments for format [-Wformat-extra-args]
+  128 |                      ":timezone must be nil, :local or :utc: %+" PRIsVALUE,
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbglib_datetime.c:178:22: warning: unknown conversion type character 'l' in format [-Wformat=]
+  178 |                      ":timezone must be nil, :local, :utc or GLib::TimeZone: "
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_datetime.c:20:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib_datetime.c:178:22: warning: too many arguments for format [-Wformat-extra-args]
+  178 |                      ":timezone must be nil, :local, :utc or GLib::TimeZone: "
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rbglib_datetime.c:184:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  184 |                  ":unix or (:year, :month, :day, :hour, :minute and :second) "
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_datetime.c:20:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbglib_datetime.c:184:18: warning: too many arguments for format [-Wformat-extra-args]
+  184 |                  ":unix or (:year, :month, :day, :hour, :minute and :second) "
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rbglib_error.c
+compiling rbglib_fileutils.c
+compiling rbglib_gettext.c
+compiling rbglib_i18n.c
+compiling rbglib_int64.c
+compiling rbglib_iochannel.c
+compiling rbglib_iochannelerror.c
+compiling rbglib_iochannel_win32_socket.c
+compiling rbglib_io_constants.c
+compiling rbglib_keyfile.c
+compiling rbglib_maincontext.c
+In file included from rbgprivate.h:31,
+                 from rbglib_maincontext.c:22:
+rbglib_maincontext.c: In function 'child_watch_source_new':
+rbglib_maincontext.c:500:48: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  500 |     return BOXED2RVAL(g_child_watch_source_new((GPid)NUM2INT(pid)), G_TYPE_SOURCE);
+      |                                                ^
+rbgobject.h:102:52: note: in definition of macro 'BOXED2RVAL'
+  102 | #define BOXED2RVAL(cobj, gtype) (rbgobj_make_boxed(cobj, gtype))
+      |                                                    ^~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_maincontext.c:22:
+rbglib_maincontext.c: In function 'child_watch_func':
+rbglib_maincontext.c:506:49: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  506 |     rb_funcall((VALUE)func, id_call, 2, INT2NUM((long)pid), INT2NUM(status));
+      |                                                 ^
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:2599:35: note: in definition of macro 'rb_funcall'
+ 2599 |  const VALUE rb_funcall_args[] = {__VA_ARGS__}; \
+      |                                   ^~~~~~~~~~~
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:1594:20: note: in expansion of macro 'RB_INT2NUM'
+ 1594 | #define INT2NUM(x) RB_INT2NUM(x)
+      |                    ^~~~~~~~~~
+rbglib_maincontext.c:506:41: note: in expansion of macro 'INT2NUM'
+  506 |     rb_funcall((VALUE)func, id_call, 2, INT2NUM((long)pid), INT2NUM(status));
+      |                                         ^~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_maincontext.c:22:
+rbglib_maincontext.c: In function 'child_watch_add':
+rbglib_maincontext.c:514:39: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  514 |     return UINT2NUM(g_child_watch_add((GPid)NUM2INT(pid),
+      |                                       ^
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:1592:43: note: in definition of macro 'RB_UINT2NUM'
+ 1592 | #define RB_UINT2NUM(x) rb_uint2num_inline(x)
+      |                                           ^
+rbglib_maincontext.c:514:12: note: in expansion of macro 'UINT2NUM'
+  514 |     return UINT2NUM(g_child_watch_add((GPid)NUM2INT(pid),
+      |            ^~~~~~~~
+compiling rbglib_mainloop.c
+compiling rbglib_matchinfo.c
+compiling rbglib_messages.c
+compiling rbglib_pollfd.c
+compiling rbglib_regex.c
+compiling rbglib_shell.c
+compiling rbglib_shellerror.c
+compiling rbglib_source.c
+compiling rbglib_spawn.c
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbglib_spawn.c:23:
+rbglib_spawn.c: In function 'rg_s_async_with_pipes':
+rbglib_spawn.c:69:35: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   69 |     return rb_ary_new3(4, INT2NUM((gint)child_pid),
+      |                                   ^
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:1582:41: note: in definition of macro 'RB_INT2NUM'
+ 1582 | #define RB_INT2NUM(x) rb_int2num_inline(x)
+      |                                         ^
+rbglib_spawn.c:69:27: note: in expansion of macro 'INT2NUM'
+   69 |     return rb_ary_new3(4, INT2NUM((gint)child_pid),
+      |                           ^~~~~~~
+rbglib_spawn.c: In function 'rg_s_async':
+rbglib_spawn.c:101:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  101 |     return INT2NUM((int)child_pid);
+      |                    ^
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:1582:41: note: in definition of macro 'RB_INT2NUM'
+ 1582 | #define RB_INT2NUM(x) rb_int2num_inline(x)
+      |                                         ^
+rbglib_spawn.c:101:12: note: in expansion of macro 'INT2NUM'
+  101 |     return INT2NUM((int)child_pid);
+      |            ^~~~~~~
+rbglib_spawn.c: In function 'rg_s_close_pid':
+rbglib_spawn.c:209:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  209 | #define RVAL2GPID(value) ((GPid)NUM2INT(pid))
+      |                           ^
+rbglib_spawn.c:214:23: note: in expansion of macro 'RVAL2GPID'
+  214 |     g_spawn_close_pid(RVAL2GPID(pid));
+      |                       ^~~~~~~~~
+compiling rbglib_spawnerror.c
+compiling rbglib_threads.c
+compiling rbglib_timer.c
+compiling rbglib_timezone.c
+compiling rbglib_ucs4.c
+compiling rbglib_unichar.c
+compiling rbglib_unicode.c
+compiling rbglib_utf16.c
+compiling rbglib_utf8.c
+compiling rbglib_utils.c
+compiling rbglib_win32.c
+compiling rbgobject.c
+compiling rbgobj_binding.c
+compiling rbgobj_boxed.c
+rbgobj_boxed.c: In function 'rg_inspect':
+rbgobj_boxed.c:131:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+  131 |     return rb_sprintf("#<%" PRIsVALUE ":%p ptr=%p own=%s>",
+      |                       ^~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_boxed.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_boxed.c:131:23: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'VALUE' {aka 'long long unsigned int'} [-Wformat=]
+  131 |     return rb_sprintf("#<%" PRIsVALUE ":%p ptr=%p own=%s>",
+      |                       ^~~~~
+rbgobj_boxed.c:131:42: note: format string is defined here
+  131 |     return rb_sprintf("#<%" PRIsVALUE ":%p ptr=%p own=%s>",
+      |                                         ~^
+      |                                          |
+      |                                          void *
+      |                                         %I64d
+rbgobj_boxed.c:131:23: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'gpointer' {aka 'void *'} [-Wformat=]
+  131 |     return rb_sprintf("#<%" PRIsVALUE ":%p ptr=%p own=%s>",
+      |                       ^~~~~
+......
+  134 |                       holder->boxed,
+      |                       ~~~~~~~~~~~~~
+      |                             |
+      |                             gpointer {aka void *}
+rbgobj_boxed.c:131:56: note: format string is defined here
+  131 |     return rb_sprintf("#<%" PRIsVALUE ":%p ptr=%p own=%s>",
+      |                                                       ~^
+      |                                                        |
+      |                                                        char *
+      |                                                       %p
+rbgobj_boxed.c:131:23: warning: too many arguments for format [-Wformat-extra-args]
+  131 |     return rb_sprintf("#<%" PRIsVALUE ":%p ptr=%p own=%s>",
+      |                       ^~~~~
+rbgobj_boxed.c: In function 'rbgobj_boxed_get_default':
+rbgobj_boxed.c:187:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  187 |                  "invalid argument %" PRIsVALUE " (expect %" PRIsVALUE ")",
+      |                  ^~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_boxed.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_boxed.c:187:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  187 |                  "invalid argument %" PRIsVALUE " (expect %" PRIsVALUE ")",
+      |                  ^~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_boxed.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_boxed.c:187:18: warning: too many arguments for format [-Wformat-extra-args]
+  187 |                  "invalid argument %" PRIsVALUE " (expect %" PRIsVALUE ")",
+      |                  ^~~~~~~~~~~~~~~~~~~~
+rbgobj_boxed.c:193:32: warning: unknown conversion type character 'l' in format [-Wformat=]
+  193 |         rb_raise(rb_eArgError, "uninitialize %" PRIsVALUE,
+      |                                ^~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_boxed.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_boxed.c:193:32: warning: too many arguments for format [-Wformat-extra-args]
+  193 |         rb_raise(rb_eArgError, "uninitialize %" PRIsVALUE,
+      |                                ^~~~~~~~~~~~~~~~
+rbgobj_boxed.c: In function 'rbgobj_boxed_unown':
+rbgobj_boxed.c:275:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  275 |                  "The boxed is already unowned: %" PRIsVALUE,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_boxed.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_boxed.c:275:18: warning: too many arguments for format [-Wformat-extra-args]
+  275 |                  "The boxed is already unowned: %" PRIsVALUE,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rbgobj_closure.c
+compiling rbgobj_convert.c
+compiling rbgobj_enumflags.c
+compiling rbgobj_enums.c
+compiling rbgobj_flags.c
+compiling rbgobj_object.c
+compiling rbgobj_param.c
+rbgobj_param.c: In function 'rg_inspect':
+rbgobj_param.c:139:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+  139 |     return rb_sprintf("#<%" PRIsVALUE "%" PRIsVALUE "#%s",
+      |                       ^~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_param.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_param.c:139:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+  139 |     return rb_sprintf("#<%" PRIsVALUE "%" PRIsVALUE "#%s",
+      |                       ^~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_param.c:22:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_param.c:139:23: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'VALUE' {aka 'long long unsigned int'} [-Wformat=]
+  139 |     return rb_sprintf("#<%" PRIsVALUE "%" PRIsVALUE "#%s",
+      |                       ^~~~~
+rbgobj_param.c:139:56: note: format string is defined here
+  139 |     return rb_sprintf("#<%" PRIsVALUE "%" PRIsVALUE "#%s",
+      |                                                       ~^
+      |                                                        |
+      |                                                        char *
+      |                                                       %I64d
+rbgobj_param.c:139:23: warning: too many arguments for format [-Wformat-extra-args]
+  139 |     return rb_sprintf("#<%" PRIsVALUE "%" PRIsVALUE "#%s",
+      |                       ^~~~~
+compiling rbgobj_paramspecs.c
+compiling rbgobj_signal.c
+rbgobj_signal.c: In function 'rg_inspect':
+rbgobj_signal.c:794:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+  794 |     return rb_sprintf("#<%" PRIsVALUE " %+" PRIsVALUE "#%s>",
+      |                       ^~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_signal.c:23:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_signal.c:794:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+  794 |     return rb_sprintf("#<%" PRIsVALUE " %+" PRIsVALUE "#%s>",
+      |                       ^~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rbgobject.h:26,
+                 from rbgprivate.h:31,
+                 from rbgobj_signal.c:23:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rbgobj_signal.c:794:23: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'VALUE' {aka 'long long unsigned int'} [-Wformat=]
+  794 |     return rb_sprintf("#<%" PRIsVALUE " %+" PRIsVALUE "#%s>",
+      |                       ^~~~~
+rbgobj_signal.c:794:58: note: format string is defined here
+  794 |     return rb_sprintf("#<%" PRIsVALUE " %+" PRIsVALUE "#%s>",
+      |                                                         ~^
+      |                                                          |
+      |                                                          char *
+      |                                                         %I64d
+rbgobj_signal.c:794:23: warning: too many arguments for format [-Wformat-extra-args]
+  794 |     return rb_sprintf("#<%" PRIsVALUE " %+" PRIsVALUE "#%s>",
+      |                       ^~~~~
+compiling rbgobj_strv.c
+In file included from rbgobject.h:27,
+                 from rbgprivate.h:31,
+                 from rbgobj_strv.c:22:
+rbgobj_strv.c: In function 'strv_from_ruby':
+rbglib.h:124:24: warning: initialization of 'const gchar **' {aka 'const char **'} from incompatible pointer type 'gchar **' {aka 'char **'} [-Wincompatible-pointer-types]
+  124 | #define RVAL2STRV(ary) rbg_rval2strv(&(ary), NULL)
+      |                        ^~~~~~~~~~~~~
+rbglib.h:124:24: note: in definition of macro 'RVAL2STRV'
+  124 | #define RVAL2STRV(ary) rbg_rval2strv(&(ary), NULL)
+      |                        ^~~~~~~~~~~~~
+compiling rbgobj_type.c
+compiling rbgobj_typeinstance.c
+compiling rbgobj_typeinterface.c
+compiling rbgobj_typemodule.c
+compiling rbgobj_typeplugin.c
+compiling rbgobj_value.c
+compiling rbgobj_valuearray.c
+compiling rbgobj_valuetypes.c
+compiling rbgutil.c
+compiling rbgutildeprecated.c
+compiling rbgutil_callback.c
+rbgutil_callback.c: In function 'queue_callback_request':
+rbgutil_callback.c:137:17: warning: unknown conversion type character 'l' in format [-Wformat=]
+  137 |         rb_warn("couldn't write all callback pipe ready message: "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib/gtypes.h:32,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib/galloca.h:32,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib.h:30,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/gobject/gbinding.h:28,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib-object.h:22,
+                 from rbgobject.h:25,
+                 from rbgprivate.h:31,
+                 from rbgutil_callback.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include/glibconfig.h:82:27: note: format string is defined here
+   82 | #define G_GSSIZE_FORMAT "lli"
+      |                           ^
+rbgutil_callback.c:137:17: warning: too many arguments for format [-Wformat-extra-args]
+  137 |         rb_warn("couldn't write all callback pipe ready message: "
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rbgutil_list.c
+linking shared-object glib2.so
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2
+make "DESTDIR=" install
+/usr/bin/install -c -m 644 ./rbglib.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbglibdeprecated.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbglib2conversions.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbgutil.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbgutil_list.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbgutildeprecated.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbgobject.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 ./rbgcompat.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 644 glib-enum-types.h ./.gem.20200604-5032-1vd7kxh
+/usr/bin/install -c -m 0755 glib2.so ./.gem.20200604-5032-1vd7kxh
+if test -n ""; then			\
+  /usr/bin/mkdir -p ;				\
+  /usr/bin/install -c -m 644 ruby-glib2.pc ;	\
+fi

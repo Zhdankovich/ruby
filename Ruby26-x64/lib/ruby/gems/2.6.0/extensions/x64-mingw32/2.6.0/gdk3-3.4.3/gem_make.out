@@ -1,0 +1,2 @@
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gdk3-3.4.3/dependency-check
+F:/ruby/Ruby26-x64/bin/ruby.exe -rrubygems F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rake-12.3.3/exe/rake RUBYARCHDIR\=F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/extensions/x64-mingw32/2.6.0/gdk3-3.4.3 RUBYLIBDIR\=F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/extensions/x64-mingw32/2.6.0/gdk3-3.4.3

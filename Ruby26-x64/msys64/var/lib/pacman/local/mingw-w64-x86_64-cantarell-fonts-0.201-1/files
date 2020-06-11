@@ -1,0 +1,17 @@
+%FILES%
+mingw64/
+mingw64/share/
+mingw64/share/fonts/
+mingw64/share/fonts/cantarell/
+mingw64/share/fonts/cantarell/Cantarell-Bold.otf
+mingw64/share/fonts/cantarell/Cantarell-ExtraBold.otf
+mingw64/share/fonts/cantarell/Cantarell-Light.otf
+mingw64/share/fonts/cantarell/Cantarell-Regular.otf
+mingw64/share/fonts/cantarell/Cantarell-Thin.otf
+mingw64/share/fonts/cantarell/Cantarell-VF.otf
+mingw64/share/licenses/
+mingw64/share/licenses/cantarell-fonts/
+mingw64/share/licenses/cantarell-fonts/COPYING
+mingw64/share/metainfo/
+mingw64/share/metainfo/org.gnome.cantarell.metainfo.xml
+

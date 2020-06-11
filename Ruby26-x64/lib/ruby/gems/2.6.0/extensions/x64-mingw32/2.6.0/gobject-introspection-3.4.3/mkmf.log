@@ -1,0 +1,351 @@
+checking for --enable-debug-build option... -------------------- no
+
+--------------------
+
+try_compiler_option: checking for -Wall option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LF:/ruby/Ruby26-x64/lib -L. -pipe -s -fstack-protector-strong     -lx64-msvcrt-ruby260  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return 0;
+8: }
+/* end */
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong  -Wall -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Waggregate-return option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall  -Waggregate-return -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wcast-align option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return  -Wcast-align -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wextra option to compiler... -------------------- no
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align  -Wextra -Werror -c conftest.c"
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from conftest.c:1:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h: In function 'rb_array_ptr_use_end':
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:2186:35: error: unused parameter 'allow_transient' [-Werror=unused-parameter]
+ 2186 | rb_array_ptr_use_end(VALUE a, int allow_transient)
+      |                               ~~~~^~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wformat=2 option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align  -Wformat=2 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Winit-self option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2  -Winit-self -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wlarger-than-65500 option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self  -Wlarger-than-65500 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-declarations option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500  -Wmissing-declarations -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-format-attribute option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations  -Wmissing-format-attribute -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-include-dirs option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute  -Wmissing-include-dirs -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-noreturn option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs  -Wmissing-noreturn -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wmissing-prototypes option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn  -Wmissing-prototypes -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wnested-externs option to compiler... -------------------- no
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes  -Wnested-externs -Werror -c conftest.c"
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from conftest.c:1:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h: In function 'rb_array_const_ptr':
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:2157:10: error: nested extern declaration of 'rb_ary_detransient' [-Werror=nested-externs]
+ 2157 |     void rb_ary_detransient(VALUE a);
+      |          ^~~~~~~~~~~~~~~~~~
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h: In function 'rb_array_ptr_use_start':
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:2170:12: error: nested extern declaration of 'rb_ary_ptr_use_start' [-Werror=nested-externs]
+ 2170 |     VALUE *rb_ary_ptr_use_start(VALUE ary);
+      |            ^~~~~~~~~~~~~~~~~~~~
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:2175:18: error: nested extern declaration of 'rb_ary_detransient' [-Werror=nested-externs]
+ 2175 |             void rb_ary_detransient(VALUE a);
+      |                  ^~~~~~~~~~~~~~~~~~
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h: In function 'rb_array_ptr_use_end':
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:2188:10: error: nested extern declaration of 'rb_ary_ptr_use_end' [-Werror=nested-externs]
+ 2188 |     void rb_ary_ptr_use_end(VALUE a);
+      |          ^~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wold-style-definition option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes  -Wold-style-definition -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wpacked option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition  -Wpacked -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked  -Wp,-D_FORTIFY_SOURCE=2 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wpointer-arith option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2  -Wpointer-arith -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wundef option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith  -Wundef -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wout-of-line-declaration option to compiler... -------------------- no
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef  -Wout-of-line-declaration -Werror -c conftest.c"
+x86_64-w64-mingw32-gcc: error: unrecognized command line option '-Wout-of-line-declaration'; did you mean '-Wold-style-declaration'?
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wunsafe-loop-optimizations option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef  -Wunsafe-loop-optimizations -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+try_compiler_option: checking for -Wwrite-strings option to compiler... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wunsafe-loop-optimizations  -Wwrite-strings -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+/* end */
+
+--------------------
+
+setup_homebrew: checking for Homebrew... -------------------- no
+
+--------------------
+
+have_package: checking for gobject-introspection-1.0... -------------------- yes
+
+--------------------
+
+have_func: checking for g_interface_info_find_signal() in girepository.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IF:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2 -IF:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2 -IF:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2 -IF:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2 -IF:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -I./.gem.20200604-5032-16fx6nb  -IF:/ruby/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0/x64-msvcrt  -IF:/ruby/Ruby26-x64/msys64/mingw64/include/gobject-introspection-1.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -Waggregate-return -Wcast-align -Wformat=2 -Winit-self -Wlarger-than-65500 -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wold-style-definition -Wpacked -Wp,-D_FORTIFY_SOURCE=2 -Wpointer-arith -Wundef -Wunsafe-loop-optimizations -Wwrite-strings -pthread -mms-bitfields conftest.c  -L. -LF:/ruby/Ruby26-x64/lib -L. -pipe -s -fstack-protector-strong -LF:/ruby/Ruby26-x64/msys64/mingw64/lib     F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lx64-msvcrt-ruby260  F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/glib2.so -lglib-2.0 -lintl -lgobject-2.0 -lgirepository-1.0 -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <girepository.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return 0;
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))g_interface_info_find_signal; return !p; }
+/* end */
+
+--------------------
+

@@ -1,0 +1,165 @@
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gobject-introspection-3.4.3/ext/gobject-introspection
+F:/ruby/Ruby26-x64/bin/ruby.exe -I F:/ruby/Ruby26-x64/lib/ruby/2.6.0 -r ./siteconf20200604-5032-18m4hnw.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... no
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... no
+checking for -Wunsafe-loop-optimizations option to compiler... yes
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... no
+checking for gobject-introspection-1.0... yes
+creating rbgiversion.h
+checking for g_interface_info_find_signal() in girepository.h... yes
+creating gobject-introspection-enum-types.c
+creating gobject-introspection-enum-types.h
+creating ruby-gobject-introspection.pc
+creating Makefile
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gobject-introspection-3.4.3/ext/gobject-introspection
+make "DESTDIR=" clean
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gobject-introspection-3.4.3/ext/gobject-introspection
+make "DESTDIR="
+compiling gobject-introspection-enum-types.c
+compiling rb-gi-arg-info.c
+compiling rb-gi-argument.c
+rb-gi-argument.c: In function 'array_c_to_ruby':
+rb-gi-argument.c:318:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  318 |                  "TODO: GIArgument(array)[c] -> Ruby: "
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib/gtypes.h:32,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib/galloca.h:32,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib.h:30,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/gobject/gbinding.h:28,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0/glib-object.h:22,
+                 from F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/glib2-3.4.3/ext/glib2/rbgobject.h:25,
+                 from rb-gi-private.h:24,
+                 from rb-gi-argument.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include/glibconfig.h:68:27: note: format string is defined here
+   68 | #define G_GINT64_FORMAT "lli"
+      |                           ^
+rb-gi-argument.c:318:18: warning: too many arguments for format [-Wformat-extra-args]
+  318 |                  "TODO: GIArgument(array)[c] -> Ruby: "
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rb-gi-arguments-in.c
+rb-gi-arguments-in.c: In function 'rb_gi_arguments_in_init_arg_ruby_array_c':
+rb-gi-arguments-in.c:1010:41: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 1010 |             metadata->in_arg->v_pointer = RVAL2CSTR(rb_arg);
+      |                                         ^
+rb-gi-arguments-in.c: In function 'rb_gi_arguments_in_init_arg_ruby_interface':
+rb-gi-arguments-in.c:1347:22: warning: unknown conversion type character 'l' in format [-Wformat=]
+ 1347 |                      "must be <%s> object: <%" PRIsVALUE ">",
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rb-gi-private.h:23,
+                 from rb-gi-arguments-in.c:21:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rb-gi-arguments-in.c:1347:22: warning: too many arguments for format [-Wformat-extra-args]
+ 1347 |                      "must be <%s> object: <%" PRIsVALUE ">",
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gi-arguments-in.c: In function 'rb_gi_arguments_in_init_arg_ruby_list':
+rb-gi-arguments-in.c:1504:34: warning: unknown conversion type character 'l' in format [-Wformat=]
+ 1504 |                                  "must be <%s> objects: <%" PRIsVALUE ">",
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rb-gi-private.h:23,
+                 from rb-gi-arguments-in.c:21:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rb-gi-arguments-in.c:1504:34: warning: too many arguments for format [-Wformat-extra-args]
+ 1504 |                                  "must be <%s> objects: <%" PRIsVALUE ">",
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gi-arguments-in.c:1518:34: warning: unknown conversion type character 'l' in format [-Wformat=]
+ 1518 |                                  "must be <%s> objects: <%" PRIsVALUE ">",
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rb-gi-private.h:23,
+                 from rb-gi-arguments-in.c:21:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rb-gi-arguments-in.c:1518:34: warning: too many arguments for format [-Wformat-extra-args]
+ 1518 |                                  "must be <%s> objects: <%" PRIsVALUE ">",
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rb-gi-arguments-out.c
+rb-gi-arguments-out.c: In function 'rb_gi_arguments_out_init_arg_array_c':
+rb-gi-arguments-out.c:279:26: warning: unknown conversion type character 'l' in format [-Wformat=]
+  279 |                          "[%s::%s] %s allocates GIArgument(%s)[%s]: "
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/ruby.h:24,
+                 from F:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby.h:33,
+                 from rb-gi-private.h:23,
+                 from rb-gi-arguments-out.c:21:
+F:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32/ruby/config.h:63:25: note: format string is defined here
+   63 | #define PRI_LL_PREFIX "ll"
+      |                         ^
+rb-gi-arguments-out.c:279:26: warning: too many arguments for format [-Wformat-extra-args]
+  279 |                          "[%s::%s] %s allocates GIArgument(%s)[%s]: "
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling rb-gi-arguments.c
+rb-gi-arguments.c: In function 'rb_gi_arguments_fill_raw_result':
+rb-gi-arguments.c:709:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  709 |                 (gulong)RVAL2CSTR_ACCEPT_SYMBOL(rb_result);
+      |                 ^
+compiling rb-gi-array-type.c
+compiling rb-gi-base-info.c
+compiling rb-gi-boxed-info.c
+compiling rb-gi-callable-info.c
+compiling rb-gi-callback-info.c
+compiling rb-gi-callback.c
+compiling rb-gi-constant-info.c
+compiling rb-gi-constructor-info.c
+compiling rb-gi-direction.c
+compiling rb-gi-enum-info.c
+compiling rb-gi-field-info.c
+compiling rb-gi-flags-info.c
+compiling rb-gi-function-info.c
+compiling rb-gi-interface-info.c
+compiling rb-gi-loader.c
+compiling rb-gi-method-info.c
+compiling rb-gi-object-info.c
+compiling rb-gi-property-info.c
+compiling rb-gi-registered-type-info.c
+compiling rb-gi-repository.c
+compiling rb-gi-signal-info.c
+compiling rb-gi-struct-info.c
+compiling rb-gi-transfer.c
+compiling rb-gi-type-info.c
+compiling rb-gi-type-tag.c
+compiling rb-gi-union-info.c
+compiling rb-gi-unresolved-info.c
+compiling rb-gi-value-info.c
+compiling rb-gi-vfunc-info.c
+compiling rb-gobject-introspection.c
+linking shared-object gobject_introspection.so
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gobject-introspection-3.4.3/ext/gobject-introspection
+make "DESTDIR=" install
+/usr/bin/install -c -m 644 ./rb-gobject-introspection.h ./.gem.20200604-5032-16fx6nb
+/usr/bin/install -c -m 0755 gobject_introspection.so ./.gem.20200604-5032-16fx6nb
+if test -n ""; then				\
+  /usr/bin/mkdir -p ;					\
+  /usr/bin/install -c -m 644 ruby-gobject-introspection.pc ;\
+fi

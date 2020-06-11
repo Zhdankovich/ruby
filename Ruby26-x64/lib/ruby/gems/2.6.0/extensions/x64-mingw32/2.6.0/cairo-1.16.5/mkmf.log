@@ -1,0 +1,157 @@
+checking for GCC... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LF:/ruby/Ruby26-x64/lib -L. -pipe -s -fstack-protector-strong     -lx64-msvcrt-ruby260  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return 0;
+8: }
+/* end */
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: /*top*/
+6: #ifndef __GNUC__
+7: # error
+8: |:/ === __GNUC__ undefined === /:|
+9: #endif
+/* end */
+
+--------------------
+
+checking for Homebrew... -------------------- no
+
+--------------------
+
+have_package: checking for cairo version (>= 1.2.0)... -------------------- yes
+
+--------------------
+
+have_package: checking for cairo-ft... -------------------- yes
+
+--------------------
+
+checking for macOS... -------------------- no
+
+--------------------
+
+have_macro: checking for HAVE_RUBY_ST_H in ruby.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -mms-bitfields -mms-bitfields   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <ruby.h>
+ 6: /*top*/
+ 7: #ifndef HAVE_RUBY_ST_H
+ 8: # error
+ 9: |:/ === HAVE_RUBY_ST_H undefined === /:|
+10: #endif
+/* end */
+
+--------------------
+
+have_macro: checking for HAVE_RUBY_IO_H in ruby.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -mms-bitfields -mms-bitfields   -c conftest.c"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <ruby.h>
+ 6: /*top*/
+ 7: #ifndef HAVE_RUBY_IO_H
+ 8: # error
+ 9: |:/ === HAVE_RUBY_IO_H undefined === /:|
+10: #endif
+/* end */
+
+--------------------
+
+have_func: checking for rb_errinfo() in ruby.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -mms-bitfields -mms-bitfields conftest.c  -L. -LF:/ruby/Ruby26-x64/lib -L. -pipe -s -fstack-protector-strong -LF:/ruby/Ruby26-x64/msys64/mingw64/lib -LF:/ruby/Ruby26-x64/msys64/mingw64/lib     -lcairo -lcairo -lfreetype -lx64-msvcrt-ruby260  -lcairo -lcairo -lfreetype -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <ruby.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return 0;
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_errinfo; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_gc_adjust_memory_usage() in ruby.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -o conftest.exe -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -mms-bitfields -mms-bitfields conftest.c  -L. -LF:/ruby/Ruby26-x64/lib -L. -pipe -s -fstack-protector-strong -LF:/ruby/Ruby26-x64/msys64/mingw64/lib -LF:/ruby/Ruby26-x64/msys64/mingw64/lib     -lcairo -lcairo -lfreetype -lx64-msvcrt-ruby260  -lcairo -lcairo -lfreetype -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: #include <ruby.h>
+ 6: 
+ 7: /*top*/
+ 8: extern int t(void);
+ 9: int main(int argc, char **argv)
+10: {
+11:   if (argc > 1000000) {
+12:     int (* volatile tp)(void)=(int (*)(void))&t;
+13:     printf("%d", (*tp)());
+14:   }
+15: 
+16:   return 0;
+17: }
+18: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_gc_adjust_memory_usage; return !p; }
+/* end */
+
+--------------------
+
+have_type: checking for enum ruby_value_type in ruby.h... -------------------- yes
+
+"x86_64-w64-mingw32-gcc -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/x64-mingw32 -IF:/ruby/Ruby26-x64/include/ruby-2.6.0/ruby/backward -IF:/ruby/Ruby26-x64/include/ruby-2.6.0 -I. -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -IF:/ruby/Ruby26-x64/msys64/mingw64/include/cairo -IF:/ruby/Ruby26-x64/msys64/mingw64/include -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/libffi-3.2.1/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/glib-2.0 -IF:/ruby/Ruby26-x64/msys64/mingw64/lib/glib-2.0/include -IF:/ruby/Ruby26-x64/msys64/mingw64/include/pixman-1 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/freetype2 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/libpng16 -IF:/ruby/Ruby26-x64/msys64/mingw64/include/harfbuzz -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -Wall -mms-bitfields -mms-bitfields   -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ruby.h>
+6: 
+7: /*top*/
+8: typedef enum ruby_value_type conftest_type;
+9: int conftestval[sizeof(conftest_type)?1:-1];
+/* end */
+
+--------------------
+

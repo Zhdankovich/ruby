@@ -1,0 +1,3 @@
+Name: Ruby/CairoGObject
+Description: Ruby bindings for gobject functions for cairo graphics library
+Version: 3.4.3

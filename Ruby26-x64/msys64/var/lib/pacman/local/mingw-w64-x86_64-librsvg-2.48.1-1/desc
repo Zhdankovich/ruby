@@ -1,0 +1,47 @@
+%NAME%
+mingw-w64-x86_64-librsvg
+
+%VERSION%
+2.48.1-1
+
+%BASE%
+mingw-w64-librsvg
+
+%DESC%
+SVG rendering library (mingw-w64)
+
+%URL%
+https://wiki.gnome.org/Projects/LibRsvg
+
+%ARCH%
+any
+
+%BUILDDATE%
+1585551572
+
+%INSTALLDATE%
+1591293639
+
+%PACKAGER%
+Alexey Pavlov <alexpux@gmail.com>
+
+%SIZE%
+29726481
+
+%REASON%
+1
+
+%LICENSE%
+LGPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mingw-w64-x86_64-gdk-pixbuf2
+mingw-w64-x86_64-pango
+mingw-w64-x86_64-libcroco
+
+%OPTDEPENDS%
+mingw-w64-x86_64-gtk3: for rsvg-view-3
+

@@ -1,0 +1,382 @@
+[2018-05-31 12:19] [PACMAN] Running 'pacman -Syu --root /tmp/newmsys/msys64'
+[2018-05-31 12:19] [PACMAN] synchronizing package lists
+[2018-05-31 12:19] [PACMAN] starting core system upgrade
+[2018-05-31 12:19] [PACMAN] starting full system upgrade
+[2018-05-31 12:19] [PACMAN] Running 'pacman -S --noconfirm --root /tmp/newmsys/msys64 base'
+[2018-05-31 12:20] [ALPM] transaction started
+[2018-05-31 12:20] [ALPM] installed msys2-runtime (2.10.0-2)
+[2018-05-31 12:20] [ALPM] installed bash (4.4.019-3)
+[2018-05-31 12:20] [ALPM] installed bash-completion (2.8-1)
+[2018-05-31 12:20] [ALPM] installed gcc-libs (7.3.0-1)
+[2018-05-31 12:20] [ALPM] installed libbz2 (1.0.6-2)
+[2018-05-31 12:20] [ALPM] installed libiconv (1.15-1)
+[2018-05-31 12:20] [ALPM] installed libintl (0.19.8.1-1)
+[2018-05-31 12:20] [ALPM] installed libgettextpo (0.19.8.1-1)
+[2018-05-31 12:20] [ALPM] installed libasprintf (0.19.8.1-1)
+[2018-05-31 12:20] [ALPM] installed gettext (0.19.8.1-1)
+[2018-05-31 12:20] [ALPM] installed liblzma (5.2.3-1)
+[2018-05-31 12:20] [ALPM] installed liblzo2 (2.10-1)
+[2018-05-31 12:20] [ALPM] installed gmp (6.1.2-1)
+[2018-05-31 12:20] [ALPM] installed libnettle (3.3-1)
+[2018-05-31 12:20] [ALPM] installed coreutils (8.26-3)
+[2018-05-31 12:20] [ALPM] installed icu (60.2-1)
+[2018-05-31 12:21] [ALPM] installed ncurses (6.1.20180526-1)
+[2018-05-31 12:21] [ALPM] installed libreadline (7.0.003-2)
+[2018-05-31 12:21] [ALPM] installed zlib (1.2.11-1)
+[2018-05-31 12:21] [ALPM] installed libxml2 (2.9.7-2)
+[2018-05-31 12:21] [ALPM] installed bsdcpio (3.3.2-1)
+[2018-05-31 12:21] [ALPM] installed bsdtar (3.3.2-1)
+[2018-05-31 12:21] [ALPM] installed bzip2 (1.0.6-2)
+[2018-05-31 12:21] [ALPM] installed libopenssl (1.0.2.m-1)
+[2018-05-31 12:21] [ALPM] installed openssl (1.0.2.m-1)
+[2018-05-31 12:21] [ALPM] installed findutils (4.6.0-1)
+[2018-05-31 12:21] [ALPM] installed sed (4.4-2)
+[2018-05-31 12:21] [ALPM] installed libffi (3.2.1-1)
+[2018-05-31 12:21] [ALPM] installed libpcre (8.40-2)
+[2018-05-31 12:21] [ALPM] installed less (529-1)
+[2018-05-31 12:21] [ALPM] installed gzip (1.9-1)
+[2018-05-31 12:21] [ALPM] installed info (6.3-1)
+[2018-05-31 12:21] [ALPM] installed libtasn1 (4.13-1)
+[2018-05-31 12:21] [ALPM] installed libgpg-error (1.27-1)
+[2018-05-31 12:21] [ALPM] installed libgcrypt (1.8.1-1)
+[2018-05-31 12:21] [ALPM] installed libxslt (1.1.32-1)
+[2018-05-31 12:21] [ALPM] installed glib2 (2.48.2-1)
+[2018-05-31 12:21] [ALPM] installed libp11-kit (0.23.9-1)
+[2018-05-31 12:21] [ALPM] installed p11-kit (0.23.9-1)
+[2018-05-31 12:21] [ALPM] installed ca-certificates (20170717-2)
+[2018-05-31 12:21] [ALPM] installed libdb (5.3.28-2)
+[2018-05-31 12:21] [ALPM] installed libcrypt (2.1-1)
+[2018-05-31 12:21] [ALPM] installed libedit (3.1-20170329)
+[2018-05-31 12:21] [ALPM] installed libsqlite (3.21.0-2)
+[2018-05-31 12:21] [ALPM] installed heimdal-libs (1.5.3-9)
+[2018-05-31 12:21] [ALPM] installed libunistring (0.9.7-2)
+[2018-05-31 12:21] [ALPM] installed libidn2 (2.0.4-2)
+[2018-05-31 12:21] [ALPM] installed libexpat (2.2.5-1)
+[2018-05-31 12:21] [ALPM] installed libmetalink (0.1.3-2)
+[2018-05-31 12:21] [ALPM] installed libnghttp2 (1.30.0-1)
+[2018-05-31 12:21] [ALPM] installed libpsl (0.19.1-1)
+[2018-05-31 12:21] [ALPM] installed libssh2 (1.8.0-1)
+[2018-05-31 12:21] [ALPM] installed libcurl (7.58.0-1)
+[2018-05-31 12:21] [ALPM] installed curl (7.58.0-1)
+[2018-05-31 12:21] [ALPM] installed filesystem (2018.04-1)
+[2018-05-31 12:21] [ALPM] installed grep (3.0-1)
+[2018-05-31 12:21] [ALPM] installed dash (0.5.9.1-1)
+[2018-05-31 12:21] [ALPM] installed dtc (1.4.4-1)
+[2018-05-31 12:21] [ALPM] installed file (5.33-1)
+[2018-05-31 12:21] [ALPM] installed m4 (1.4.18-1)
+[2018-05-31 12:21] [ALPM] installed flex (2.6.4-1)
+[2018-05-31 12:21] [ALPM] installed mpfr (4.0.1-1)
+[2018-05-31 12:21] [ALPM] installed gawk (4.2.0-1)
+[2018-05-31 12:21] [ALPM] installed libargp (20110921-1)
+[2018-05-31 12:21] [ALPM] installed getent (2.18.90-2)
+[2018-05-31 12:21] [ALPM] installed tftp-hpa (5.2-2)
+[2018-05-31 12:21] [ALPM] installed inetutils (1.9.4-1)
+[2018-05-31 12:21] [ALPM] installed lndir (1.0.3-1)
+[2018-05-31 12:21] [ALPM] installed mintty (1~2.8.5-1)
+[2018-05-31 12:21] [ALPM] installed msys2-keyring (r9.397a52e-1)
+[2018-05-31 12:21] [ALPM] installed msys2-launcher-git (0.3.32.56c2ba7-2)
+[2018-05-31 12:21] [ALPM] installed gnupg (1.4.22-3)
+[2018-05-31 12:21] [ALPM] installed pacman-mirrors (20180419-1)
+[2018-05-31 12:21] [ALPM] installed which (2.21-2)
+[2018-05-31 12:21] [ALPM] installed xz (5.2.3-1)
+[2018-05-31 12:21] [ALPM] installed pacman (5.0.1-7)
+[2018-05-31 12:21] [ALPM] installed libarchive (3.3.2-1)
+[2018-05-31 12:21] [ALPM] installed libpcre16 (8.40-2)
+[2018-05-31 12:21] [ALPM] installed libpcre32 (8.40-2)
+[2018-05-31 12:21] [ALPM] installed libpcrecpp (8.40-2)
+[2018-05-31 12:21] [ALPM] installed libpcreposix (8.40-2)
+[2018-05-31 12:21] [ALPM] installed pcre (8.40-2)
+[2018-05-31 12:21] [ALPM] installed pkgfile (17-1)
+[2018-05-31 12:21] [ALPM-SCRIPTLET] ==> Run 'pkgfile --update' to initialize the database
+[2018-05-31 12:21] [ALPM] installed libassuan (2.4.3-1)
+[2018-05-31 12:21] [ALPM] installed libgpgme (1.6.0-1)
+[2018-05-31 12:21] [ALPM] installed libutil-linux (2.26.2-1)
+[2018-05-31 12:21] [ALPM] installed wget (1.19.4-1)
+[2018-05-31 12:21] [ALPM] installed pactoys-git (r2.07ca37f-1)
+[2018-05-31 12:21] [ALPM] installed pax-git (20161104.2-1)
+[2018-05-31 12:21] [ALPM] installed rebase (4.4.2-1)
+[2018-05-31 12:21] [ALPM] installed time (1.7-1)
+[2018-05-31 12:21] [ALPM] installed ttyrec (1.0.8-1)
+[2018-05-31 12:21] [ALPM] installed tzcode (2018.c-1)
+[2018-05-31 12:21] [ALPM] installed util-linux (2.26.2-1)
+[2018-05-31 12:21] [ALPM] transaction completed
+[2020-04-03 05:33] [PACMAN] Running 'pacman -Rdd --noconfirm catgets libcatgets'
+[2020-04-03 05:33] [PACMAN] Running 'pacman -Syu --needed --noconfirm --cachedir=/c/msys64/var/cache/pacman/pkg'
+[2020-04-03 05:33] [PACMAN] synchronizing package lists
+[2020-04-03 05:33] [PACMAN] starting core system upgrade
+[2020-04-03 05:33] [ALPM] transaction started
+[2020-04-03 05:33] [ALPM] upgraded msys2-runtime (2.10.0-2 -> 3.0.7-6)
+[2020-04-03 05:33] [ALPM] upgraded bash (4.4.019-3 -> 4.4.023-2)
+[2020-04-03 05:33] [ALPM] upgraded filesystem (2018.04-1 -> 2020.02-2)
+[2020-04-03 05:33] [ALPM] upgraded mintty (1~2.8.5-1 -> 1~3.1.4-1)
+[2020-04-03 05:33] [ALPM] upgraded pacman-mirrors (20180419-1 -> 20200307-1)
+[2020-04-03 05:33] [ALPM] installed libzstd (1.4.4-2)
+[2020-04-03 05:33] [ALPM] installed zstd (1.4.4-2)
+[2020-04-03 05:33] [ALPM] upgraded pacman (5.0.1-7 -> 5.2.1-6)
+[2020-04-03 05:33] [ALPM] transaction completed
+[2020-04-03T05:33:07+0000] [PACMAN] Running 'pacman -Su --needed --noconfirm --cachedir=/c/msys64/var/cache/pacman/pkg'
+[2020-04-03T05:33:07+0000] [PACMAN] starting core system upgrade
+[2020-04-03T05:33:07+0000] [PACMAN] starting full system upgrade
+[2020-04-03T05:33:26+0000] [ALPM] transaction started
+[2020-04-03T05:33:27+0000] [ALPM] upgraded bash-completion (2.8-1 -> 2.10-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded gcc-libs (7.3.0-1 -> 9.3.0-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded libbz2 (1.0.6-2 -> 1.0.8-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded libiconv (1.15-1 -> 1.16-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded libexpat (2.2.5-1 -> 2.2.9-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded liblzma (5.2.3-1 -> 5.2.5-1)
+[2020-04-03T05:33:27+0000] [ALPM] installed liblz4 (1.9.2-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded gmp (6.1.2-1 -> 6.2.0-1)
+[2020-04-03T05:33:27+0000] [ALPM] installed libhogweed (3.5.1-1)
+[2020-04-03T05:33:27+0000] [ALPM] upgraded libnettle (3.3-1 -> 3.5.1-1)
+[2020-04-03T05:33:28+0000] [ALPM] upgraded coreutils (8.26-3 -> 8.32-1)
+[2020-04-03T05:33:29+0000] [ALPM] upgraded icu (60.2-1 -> 65.1-1)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded ncurses (6.1.20180526-1 -> 6.2-1)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded libreadline (7.0.003-2 -> 8.0.004-1)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded libxml2 (2.9.7-2 -> 2.9.10-2)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded bsdcpio (3.3.2-1 -> 3.4.2-2)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded bsdtar (3.3.2-1 -> 3.4.2-2)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded bzip2 (1.0.6-2 -> 1.0.8-1)
+[2020-04-03T05:33:34+0000] [ALPM] upgraded libopenssl (1.0.2.m-1 -> 1.1.1.e-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded openssl (1.0.2.m-1 -> 1.1.1.e-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded findutils (4.6.0-1 -> 4.7.0-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded sed (4.4-2 -> 4.8-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded libffi (3.2.1-1 -> 3.2.1-3)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded libpcre (8.40-2 -> 8.44-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded less (529-1 -> 551-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded gzip (1.9-1 -> 1.10-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded libcrypt (2.1-1 -> 2.1-2)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded info (6.3-1 -> 6.6-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded libtasn1 (4.13-1 -> 4.16.0-1)
+[2020-04-03T05:33:40+0000] [ALPM] upgraded libgpg-error (1.27-1 -> 1.37-1)
+[2020-04-03T05:33:41+0000] [ALPM] upgraded libgcrypt (1.8.1-1 -> 1.8.5-1)
+[2020-04-03T05:33:41+0000] [ALPM] upgraded libxslt (1.1.32-1 -> 1.1.34-1)
+[2020-04-03T05:33:41+0000] [ALPM] upgraded glib2 (2.48.2-1 -> 2.54.3-2)
+[2020-04-03T05:33:41+0000] [ALPM] upgraded libp11-kit (0.23.9-1 -> 0.23.20-1)
+[2020-04-03T05:33:41+0000] [ALPM] upgraded p11-kit (0.23.9-1 -> 0.23.20-1)
+[2020-04-03T05:33:41+0000] [ALPM] upgraded ca-certificates (20170717-2 -> 20190110-1)
+[2020-04-03T05:33:42+0000] [ALPM] installed brotli (1.0.7-2)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libedit (3.1-20170329 -> 20191231_3.1-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libsqlite (3.21.0-2 -> 3.30.0-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded heimdal-libs (1.5.3-9 -> 7.7.0-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libunistring (0.9.7-2 -> 0.9.10-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libidn2 (2.0.4-2 -> 2.3.0-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libnghttp2 (1.30.0-1 -> 1.40.0-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libpsl (0.19.1-1 -> 0.21.0-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libssh2 (1.8.0-1 -> 1.9.0-1)
+[2020-04-03T05:33:42+0000] [ALPM] upgraded libcurl (7.58.0-1 -> 7.69.1-1)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded curl (7.58.0-1 -> 7.69.1-1)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded grep (3.0-1 -> 3.0-2)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded dash (0.5.9.1-1 -> 0.5.10.2-1)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded dtc (1.4.4-1 -> 1.6.0-1)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded file (5.33-1 -> 5.38-2)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded mpfr (4.0.1-1 -> 4.0.2-1)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded gawk (4.2.0-1 -> 5.0.1-1)
+[2020-04-03T05:33:43+0000] [ALPM] upgraded libassuan (2.4.3-1 -> 2.5.3-1)
+[2020-04-03T05:33:44+0000] [ALPM] installed libgnutls (3.6.12-1)
+[2020-04-03T05:33:44+0000] [ALPM] installed libksba (1.3.5-1)
+[2020-04-03T05:33:44+0000] [ALPM] installed libnpth (1.6-1)
+[2020-04-03T05:33:44+0000] [ALPM] installed nettle (3.5.1-1)
+[2020-04-03T05:33:44+0000] [ALPM] installed pinentry (1.1.0-2)
+[2020-04-03T05:33:44+0000] [ALPM] upgraded gnupg (1.4.22-3 -> 2.2.20-1)
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] ==> Appending keys from msys2.gpg...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] gpg: starting migration from earlier GnuPG versions
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] gpg: porting secret keys from '/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] gpg: migration succeeded
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET]   -> Locally signing key D55E7A6D7CE9BA1587C0ACACF40D263ECA25678A...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET]   -> Locally signing key 123D4D51A1793859C2BE916BBBE514E53E0D0813...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET]   -> Locally signing key B91BCF3303284BF90CC043CA9F418C233E652008...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET]   -> Locally signing key 9DD0D4217D75A33B896159E6DA7EF2ABAEEA755C...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2020-04-03T05:33:47+0000] [ALPM-SCRIPTLET] gpg: no need for a trustdb check
+[2020-04-03T05:33:47+0000] [ALPM] upgraded tftp-hpa (5.2-2 -> 5.2-3)
+[2020-04-03T05:33:47+0000] [ALPM] upgraded inetutils (1.9.4-1 -> 1.9.4-2)
+[2020-04-03T05:33:47+0000] [ALPM] upgraded libarchive (3.3.2-1 -> 3.4.2-2)
+[2020-04-03T05:33:47+0000] [ALPM] upgraded libargp (20110921-1 -> 20110921-2)
+[2020-04-03T05:33:47+0000] [ALPM] upgraded libgpgme (1.6.0-1 -> 1.13.1-2)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded liblzo2 (2.10-1 -> 2.10-2)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded libpcre16 (8.40-2 -> 8.44-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded libpcre32 (8.40-2 -> 8.44-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded libpcrecpp (8.40-2 -> 8.44-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded libpcreposix (8.40-2 -> 8.44-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded libutil-linux (2.26.2-1 -> 2.35.1-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded m4 (1.4.18-1 -> 1.4.18-2)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded pcre (8.40-2 -> 8.44-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded xz (5.2.3-1 -> 5.2.5-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded pkgfile (17-1 -> 21-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded rebase (4.4.2-1 -> 4.4.4-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded time (1.7-1 -> 1.9-1)
+[2020-04-03T05:33:48+0000] [ALPM] upgraded ttyrec (1.0.8-1 -> 1.0.8-2)
+[2020-04-03T05:33:50+0000] [ALPM] upgraded tzcode (2018.c-1 -> 2019.a-1)
+[2020-04-03T05:33:50+0000] [ALPM] upgraded util-linux (2.26.2-1 -> 2.35.1-1)
+[2020-04-03T05:33:50+0000] [ALPM] installed libpcre2_8 (10.34-1)
+[2020-04-03T05:33:50+0000] [ALPM] upgraded wget (1.19.4-1 -> 1.20.3-1)
+[2020-04-03T05:33:50+0000] [ALPM] transaction completed
+[2020-04-03T05:33:51+0000] [PACMAN] Running 'pacman -S --needed --noconfirm --cachedir=/c/msys64/var/cache/pacman/pkg autoconf autoconf2.13 autogen automake-wrapper automake1.10 automake1.11 automake1.12 automake1.13 automake1.14 automake1.15 automake1.6 automake1.7 automake1.8 automake1.9 diffutils file gawk grep libtool m4 make patch pkg-config sed texinfo texinfo-tex wget mingw-w64-x86_64-binutils mingw-w64-x86_64-crt-git mingw-w64-x86_64-gcc mingw-w64-x86_64-gcc-libs mingw-w64-x86_64-headers-git mingw-w64-x86_64-libmangle-git mingw-w64-x86_64-libwinpthread-git mingw-w64-x86_64-make mingw-w64-x86_64-pkg-config mingw-w64-x86_64-tools-git mingw-w64-x86_64-winpthreads-git'
+[2020-04-03T05:34:05+0000] [ALPM] transaction started
+[2020-04-03T05:34:05+0000] [ALPM] installed diffutils (3.7-1)
+[2020-04-03T05:34:05+0000] [ALPM] installed db (5.3.28-2)
+[2020-04-03T05:34:05+0000] [ALPM] installed libgdbm (1.18.1-2)
+[2020-04-03T05:34:05+0000] [ALPM] installed gdbm (1.18.1-2)
+[2020-04-03T05:34:08+0000] [ALPM] installed perl (5.30.2-1)
+[2020-04-03T05:34:08+0000] [ALPM] installed autoconf (2.69-5)
+[2020-04-03T05:34:08+0000] [ALPM] installed autoconf2.13 (2.13-2)
+[2020-04-03T05:34:08+0000] [ALPM] installed libatomic_ops (7.6.10-1)
+[2020-04-03T05:34:08+0000] [ALPM] installed libgc (7.6.8-1)
+[2020-04-03T05:34:08+0000] [ALPM] installed libltdl (2.4.6-9)
+[2020-04-03T05:34:09+0000] [ALPM] installed libguile (2.2.6-1)
+[2020-04-03T05:34:09+0000] [ALPM] installed autogen (5.18.16-1)
+[2020-04-03T05:34:09+0000] [ALPM] installed automake1.6 (1.6.3-2)
+[2020-04-03T05:34:10+0000] [ALPM] installed automake1.7 (1.7.9-2)
+[2020-04-03T05:34:10+0000] [ALPM] installed automake1.8 (1.8.5-3)
+[2020-04-03T05:34:10+0000] [ALPM] installed automake1.9 (1.9.6-2)
+[2020-04-03T05:34:10+0000] [ALPM] installed automake1.10 (1.10.3-3)
+[2020-04-03T05:34:10+0000] [ALPM] installed automake1.11 (1.11.6-3)
+[2020-04-03T05:34:11+0000] [ALPM] installed automake1.12 (1.12.6-3)
+[2020-04-03T05:34:11+0000] [ALPM] installed automake1.13 (1.13.4-4)
+[2020-04-03T05:34:11+0000] [ALPM] installed automake1.14 (1.14.1-3)
+[2020-04-03T05:34:11+0000] [ALPM] installed automake1.15 (1.15.1-1)
+[2020-04-03T05:34:12+0000] [ALPM] installed automake1.16 (1.16.1-1)
+[2020-04-03T05:34:12+0000] [ALPM] installed automake-wrapper (11-1)
+[2020-04-03T05:34:12+0000] [ALPM] installed tar (1.32-1)
+[2020-04-03T05:34:12+0000] [ALPM] installed libtool (2.4.6-9)
+[2020-04-03T05:34:12+0000] [ALPM] installed make (4.3-1)
+[2020-04-03T05:34:12+0000] [ALPM] installed patch (2.7.6-1)
+[2020-04-03T05:34:12+0000] [ALPM] installed pkg-config (0.29.2-1)
+[2020-04-03T05:34:13+0000] [ALPM] installed texinfo (6.6-1)
+[2020-04-03T05:34:13+0000] [ALPM] installed texinfo-tex (6.6-1)
+[2020-04-03T05:34:13+0000] [ALPM] installed mingw-w64-x86_64-libiconv (1.16-1)
+[2020-04-03T05:34:13+0000] [ALPM] installed mingw-w64-x86_64-zlib (1.2.11-7)
+[2020-04-03T05:34:15+0000] [ALPM] installed mingw-w64-x86_64-binutils (2.34-1)
+[2020-04-03T05:34:16+0000] [ALPM] installed mingw-w64-x86_64-headers-git (8.0.0.5685.ef310786-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-crt-git (8.0.0.5685.ef310786-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-isl (0.22.1-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-gmp (6.2.0-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-mpfr (4.0.2-2)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-mpc (1.1.0-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-libwinpthread-git (8.0.0.5680.0df6b89f-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-gcc-libs (9.3.0-1)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-windows-default-manifest (6.4-3)
+[2020-04-03T05:34:17+0000] [ALPM] installed mingw-w64-x86_64-winpthreads-git (8.0.0.5680.0df6b89f-1)
+[2020-04-03T05:34:21+0000] [ALPM] installed mingw-w64-x86_64-gcc (9.3.0-1)
+[2020-04-03T05:34:21+0000] [ALPM] installed mingw-w64-x86_64-libmangle-git (8.0.0.5573.a4de8df4-1)
+[2020-04-03T05:34:21+0000] [ALPM] installed mingw-w64-x86_64-expat (2.2.9-1)
+[2020-04-03T05:34:23+0000] [ALPM] installed mingw-w64-x86_64-gettext (0.19.8.1-8)
+[2020-04-03T05:34:23+0000] [ALPM] installed mingw-w64-x86_64-make (4.3-1)
+[2020-04-03T05:34:23+0000] [ALPM] installed mingw-w64-x86_64-pkg-config (0.29.2-1)
+[2020-04-03T05:34:23+0000] [ALPM] installed mingw-w64-x86_64-tools-git (8.0.0.5573.a4de8df4-1)
+[2020-04-03T05:34:23+0000] [ALPM] transaction completed
+[2020-06-04T20:50:51+0300] [PACMAN] Running 'pacman -S --needed --noconfirm autoconf autoconf2.13 autogen automake-wrapper automake1.10 automake1.11 automake1.12 automake1.13 automake1.14 automake1.15 automake1.6 automake1.7 automake1.8 automake1.9 diffutils file gawk grep libtool m4 make patch pkg-config sed texinfo texinfo-tex wget mingw-w64-x86_64-binutils mingw-w64-x86_64-crt-git mingw-w64-x86_64-gcc mingw-w64-x86_64-gcc-libs mingw-w64-x86_64-headers-git mingw-w64-x86_64-libmangle-git mingw-w64-x86_64-libwinpthread-git mingw-w64-x86_64-make mingw-w64-x86_64-pkg-config mingw-w64-x86_64-tools-git mingw-w64-x86_64-winpthreads-git'
+[2020-06-04T20:51:36+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-pkg-config'
+[2020-06-04T20:51:37+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-glib2'
+[2020-06-04T20:52:43+0300] [ALPM] transaction started
+[2020-06-04T20:52:43+0300] [ALPM] installed mingw-w64-x86_64-bzip2 (1.0.8-1)
+[2020-06-04T20:52:43+0300] [ALPM] installed mingw-w64-x86_64-wineditline (2.205-3)
+[2020-06-04T20:52:44+0300] [ALPM] installed mingw-w64-x86_64-pcre (8.44-1)
+[2020-06-04T20:52:44+0300] [ALPM] installed mingw-w64-x86_64-libffi (3.2.1-4)
+[2020-06-04T20:52:44+0300] [ALPM] installed mingw-w64-x86_64-mpdecimal (2.4.2-1)
+[2020-06-04T20:52:44+0300] [ALPM] installed mingw-w64-x86_64-libtre-git (r128.6fb7206-2)
+[2020-06-04T20:52:44+0300] [ALPM] installed mingw-w64-x86_64-libsystre (1.0.1-4)
+[2020-06-04T20:52:53+0300] [ALPM] installed mingw-w64-x86_64-ncurses (6.2-1)
+[2020-06-04T20:52:53+0300] [ALPM] installed mingw-w64-x86_64-libtasn1 (4.16.0-1)
+[2020-06-04T20:52:53+0300] [ALPM] installed mingw-w64-x86_64-p11-kit (0.23.20-1)
+[2020-06-04T20:52:53+0300] [ALPM] installed mingw-w64-x86_64-ca-certificates (20190110-1)
+[2020-06-04T20:53:13+0300] [ALPM] installed mingw-w64-x86_64-openssl (1.1.1.f-1)
+[2020-06-04T20:53:13+0300] [ALPM] installed mingw-w64-x86_64-termcap (1.3.1-5)
+[2020-06-04T20:53:13+0300] [ALPM] installed mingw-w64-x86_64-readline (8.0.004-1)
+[2020-06-04T20:53:18+0300] [ALPM] installed mingw-w64-x86_64-tcl (8.6.10-1)
+[2020-06-04T20:53:20+0300] [ALPM] installed mingw-w64-x86_64-sqlite3 (3.31.1-1)
+[2020-06-04T20:53:21+0300] [ALPM] installed mingw-w64-x86_64-tk (8.6.10-1)
+[2020-06-04T20:53:21+0300] [ALPM] installed mingw-w64-x86_64-xz (5.2.5-1)
+[2020-06-04T20:53:47+0300] [ALPM] installed mingw-w64-x86_64-python (3.8.2-1)
+[2020-06-04T20:53:48+0300] [ALPM] installed mingw-w64-x86_64-glib2 (2.64.1-1)
+[2020-06-04T20:53:48+0300] [ALPM-SCRIPTLET] No schema files found: doing nothing.
+[2020-06-04T20:53:48+0300] [ALPM-SCRIPTLET] /
+[2020-06-04T20:53:49+0300] [ALPM] transaction completed
+[2020-06-04T20:55:57+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-gobject-introspection'
+[2020-06-04T20:56:02+0300] [ALPM] transaction started
+[2020-06-04T20:56:02+0300] [ALPM] installed mingw-w64-x86_64-gobject-introspection-runtime (1.64.0-1)
+[2020-06-04T20:56:02+0300] [ALPM] installed mingw-w64-x86_64-python-markupsafe (1.1.1-1)
+[2020-06-04T20:56:03+0300] [ALPM] installed mingw-w64-x86_64-python-beaker (1.11.0-1)
+[2020-06-04T20:56:03+0300] [ALPM] installed mingw-w64-x86_64-python-mako (1.1.2-1)
+[2020-06-04T20:56:03+0300] [ALPM-SCRIPTLET] /
+[2020-06-04T20:56:03+0300] [ALPM] installed mingw-w64-x86_64-gobject-introspection (1.64.0-1)
+[2020-06-04T20:56:03+0300] [ALPM-SCRIPTLET] /
+[2020-06-04T20:56:03+0300] [ALPM] transaction completed
+[2020-06-04T20:57:11+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-glib-networking'
+[2020-06-04T20:57:24+0300] [ALPM] transaction started
+[2020-06-04T20:57:24+0300] [ALPM] installed mingw-w64-x86_64-libunistring (0.9.10-1)
+[2020-06-04T20:57:24+0300] [ALPM] installed mingw-w64-x86_64-libidn2 (2.3.0-1)
+[2020-06-04T20:57:25+0300] [ALPM] installed mingw-w64-x86_64-nettle (3.5.1-1)
+[2020-06-04T20:57:26+0300] [ALPM] installed mingw-w64-x86_64-gnutls (3.6.13-1)
+[2020-06-04T20:57:27+0300] [ALPM] installed mingw-w64-x86_64-libproxy (0.4.15-3)
+[2020-06-04T20:57:27+0300] [ALPM] installed mingw-w64-x86_64-adobe-source-code-pro-fonts (2.030ro+1.050it-1)
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Rebuilding fontconfig cache.../tmp/alpm_4l5NTW/.INSTALL: строка 8: /mingw64/bin/fc-cache: No such file or directory
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET]  done.
+[2020-06-04T20:57:27+0300] [ALPM] installed mingw-w64-x86_64-cantarell-fonts (0.201-1)
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Rebuilding fontconfig cache.../tmp/alpm_dveVEX/.INSTALL: строка 8: /mingw64/bin/fc-cache: No such file or directory
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET]  done.
+[2020-06-04T20:57:27+0300] [ALPM] installed mingw-w64-x86_64-gsettings-desktop-schemas (3.36.0-1)
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.locale” has path “/system/locale/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy” has path “/system/proxy/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.http” has path “/system/proxy/http/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.https” has path “/system/proxy/https/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.ftp” has path “/system/proxy/ftp/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T20:57:27+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.socks” has path “/system/proxy/socks/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T20:57:27+0300] [ALPM] installed mingw-w64-x86_64-glib-networking (2.64.1-1)
+[2020-06-04T20:57:27+0300] [ALPM] transaction completed
+[2020-06-04T20:57:54+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-atk'
+[2020-06-04T20:57:56+0300] [ALPM] transaction started
+[2020-06-04T20:57:57+0300] [ALPM] installed mingw-w64-x86_64-atk (2.34.1-1)
+[2020-06-04T20:57:57+0300] [ALPM] transaction completed
+[2020-06-04T20:57:58+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-cairo'
+[2020-06-04T20:58:07+0300] [ALPM] transaction started
+[2020-06-04T20:58:07+0300] [ALPM] installed mingw-w64-x86_64-graphite2 (1.3.13-2)
+[2020-06-04T20:58:07+0300] [ALPM] installed mingw-w64-x86_64-harfbuzz (2.6.4-3)
+[2020-06-04T20:58:07+0300] [ALPM] installed mingw-w64-x86_64-libpng (1.6.37-3)
+[2020-06-04T20:58:07+0300] [ALPM] installed mingw-w64-x86_64-freetype (2.10.1-1)
+[2020-06-04T20:58:07+0300] [ALPM] installed mingw-w64-x86_64-fontconfig (2.13.1-1)
+[2020-06-04T20:58:07+0300] [ALPM-SCRIPTLET] 
+[2020-06-04T20:58:07+0300] [ALPM-SCRIPTLET]   Fontconfig configuration is done via /mingw64/etc/fonts/conf.avail and conf.d.
+[2020-06-04T20:58:07+0300] [ALPM-SCRIPTLET]   Read /mingw64/etc/fonts/conf.d/README for more information.
+[2020-06-04T20:58:07+0300] [ALPM-SCRIPTLET] 
+[2020-06-04T20:58:12+0300] [ALPM-SCRIPTLET] updating font cache... done.
+[2020-06-04T20:58:12+0300] [ALPM] installed mingw-w64-x86_64-lzo2 (2.10-1)
+[2020-06-04T20:58:12+0300] [ALPM] installed mingw-w64-x86_64-pixman (0.38.4-1)
+[2020-06-04T20:58:13+0300] [ALPM] installed mingw-w64-x86_64-cairo (1.16.0-1)
+[2020-06-04T20:58:13+0300] [ALPM] transaction completed
+[2020-06-04T20:59:12+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-pango'
+[2020-06-04T20:59:16+0300] [ALPM] transaction started
+[2020-06-04T20:59:16+0300] [ALPM] installed mingw-w64-x86_64-fribidi (1.0.9-1)
+[2020-06-04T20:59:16+0300] [ALPM] installed mingw-w64-x86_64-libdatrie (0.2.12-1)
+[2020-06-04T20:59:16+0300] [ALPM] installed mingw-w64-x86_64-libthai (0.1.28-2)
+[2020-06-04T20:59:17+0300] [ALPM] installed mingw-w64-x86_64-pango (1.43.0-3)
+[2020-06-04T20:59:17+0300] [ALPM] transaction completed
+[2020-06-04T20:59:51+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-gdk-pixbuf2'
+[2020-06-04T20:59:58+0300] [ALPM] transaction started
+[2020-06-04T20:59:58+0300] [ALPM] installed mingw-w64-x86_64-freeglut (3.2.1-1)
+[2020-06-04T20:59:58+0300] [ALPM] installed mingw-w64-x86_64-libjpeg-turbo (2.0.4-1)
+[2020-06-04T20:59:59+0300] [ALPM] installed mingw-w64-x86_64-jasper (2.0.16-1)
+[2020-06-04T20:59:59+0300] [ALPM] installed mingw-w64-x86_64-zstd (1.4.4-1)
+[2020-06-04T20:59:59+0300] [ALPM] installed mingw-w64-x86_64-libtiff (4.1.0-1)
+[2020-06-04T21:00:00+0300] [ALPM] installed mingw-w64-x86_64-gdk-pixbuf2 (2.40.0-1)
+[2020-06-04T21:00:00+0300] [ALPM] transaction completed
+[2020-06-04T21:00:02+0300] [PACMAN] Running 'pacman -S --needed --noconfirm mingw-w64-x86_64-gtk3'
+[2020-06-04T21:00:36+0300] [ALPM] transaction started
+[2020-06-04T21:00:37+0300] [ALPM] installed mingw-w64-x86_64-hicolor-icon-theme (0.17-1)
+[2020-06-04T21:00:38+0300] [ALPM] installed mingw-w64-x86_64-libxml2 (2.9.10-3)
+[2020-06-04T21:00:38+0300] [ALPM] installed mingw-w64-x86_64-libcroco (0.6.13-1)
+[2020-06-04T21:00:39+0300] [ALPM] installed mingw-w64-x86_64-librsvg (2.48.1-1)
+[2020-06-04T21:00:51+0300] [ALPM] installed mingw-w64-x86_64-adwaita-icon-theme (3.36.0-1)
+[2020-06-04T21:00:52+0300] [ALPM] installed mingw-w64-x86_64-json-glib (1.4.4-1)
+[2020-06-04T21:00:52+0300] [ALPM] installed mingw-w64-x86_64-libepoxy (1.5.4-1)
+[2020-06-04T21:00:52+0300] [ALPM] installed mingw-w64-x86_64-shared-mime-info (1.15-1)
+[2020-06-04T21:00:57+0300] [ALPM] installed mingw-w64-x86_64-gtk3 (3.24.16-1)
+[2020-06-04T21:00:58+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.locale” has path “/system/locale/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T21:00:58+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy” has path “/system/proxy/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T21:00:58+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.http” has path “/system/proxy/http/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T21:00:58+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.https” has path “/system/proxy/https/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T21:00:58+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.ftp” has path “/system/proxy/ftp/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T21:00:58+0300] [ALPM-SCRIPTLET] Warning: Schema “org.gnome.system.proxy.socks” has path “/system/proxy/socks/”.  Paths starting with “/apps/”, “/desktop/” or “/system/” are deprecated.
+[2020-06-04T21:00:58+0300] [ALPM] transaction completed

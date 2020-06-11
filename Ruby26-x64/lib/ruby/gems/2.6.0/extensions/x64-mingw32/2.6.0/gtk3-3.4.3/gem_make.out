@@ -1,0 +1,162 @@
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gtk3-3.4.3/ext/gtk3
+F:/ruby/Ruby26-x64/bin/ruby.exe -I F:/ruby/Ruby26-x64/lib/ruby/2.6.0 -r ./siteconf20200604-5032-1t0h089.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... no
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... no
+checking for -Wunsafe-loop-optimizations option to compiler... yes
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... no
+checking for cairo... yes
+checking for rb_cairo.h... yes
+checking for gtk+-3.0... yes
+checking for gobject-introspection-1.0... yes
+creating ruby-gtk3.pc
+creating Makefile
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gtk3-3.4.3/ext/gtk3
+make "DESTDIR=" clean
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gtk3-3.4.3/ext/gtk3
+make "DESTDIR="
+generating gtk3-x64-mingw32.def
+compiling rb-gtk3-cell-layout.c
+compiling rb-gtk3-container.c
+compiling rb-gtk3-spin-button.c
+compiling rb-gtk3-tree-model.c
+compiling rb-gtk3-tree-view.c
+compiling rb-gtk3-widget.c
+compiling rb-gtk3-window.c
+compiling rb-gtk3.c
+rb-gtk3.c: In function 'rb_gtk3_action_mark':
+rb-gtk3.c:505:5: warning: 'gtk_action_get_type' is deprecated [-Wdeprecated-declarations]
+  505 |     action = GTK_ACTION(object);
+      |     ^~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:252,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkaction.h:96:14: note: declared here
+   96 | GType        gtk_action_get_type               (void) G_GNUC_CONST;
+      |              ^~~~~~~~~~~~~~~~~~~
+rb-gtk3.c:506:5: warning: 'gtk_action_get_proxies' is deprecated [-Wdeprecated-declarations]
+  506 |     proxies = gtk_action_get_proxies(action);
+      |     ^~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:252,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkaction.h:130:14: note: declared here
+  130 | GSList *     gtk_action_get_proxies            (GtkAction     *action);
+      |              ^~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c: In function 'rb_gtk3_action_group_mark':
+rb-gtk3.c:533:5: warning: 'gtk_action_group_get_type' is deprecated [-Wdeprecated-declarations]
+  533 |     group = GTK_ACTION_GROUP(object);
+      |     ^~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:254,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:173:17: note: declared here
+  173 | GType           gtk_action_group_get_type                (void) G_GNUC_CONST;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c:534:5: warning: 'gtk_action_group_list_actions' is deprecated [-Wdeprecated-declarations]
+  534 |     actions = gtk_action_group_list_actions(group);
+      |     ^~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:254,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:198:17: note: declared here
+  198 | GList          *gtk_action_group_list_actions            (GtkActionGroup             *action_group);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c: In function 'rb_gtk3_ui_manager_mark':
+rb-gtk3.c:550:5: warning: 'gtk_ui_manager_get_type' is deprecated [-Wdeprecated-declarations]
+  550 |     manager = GTK_UI_MANAGER(object);
+      |     ^~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:284,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:128:16: note: declared here
+  128 | GType          gtk_ui_manager_get_type            (void) G_GNUC_CONST;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c:551:5: warning: 'gtk_ui_manager_get_action_groups' is deprecated [-Wdeprecated-declarations]
+  551 |     action_groups = gtk_ui_manager_get_action_groups(manager);
+      |     ^~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:284,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:145:16: note: declared here
+  145 | GList         *gtk_ui_manager_get_action_groups   (GtkUIManager          *manager);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c:557:5: warning: 'gtk_ui_manager_get_accel_group' is deprecated [-Wdeprecated-declarations]
+  557 |     rbgobj_gc_mark_instance(gtk_ui_manager_get_accel_group(manager));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:284,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:147:16: note: declared here
+  147 | GtkAccelGroup *gtk_ui_manager_get_accel_group     (GtkUIManager          *manager);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c: In function 'Init_gtk3':
+rb-gtk3.c:606:5: warning: 'gtk_action_get_type' is deprecated [-Wdeprecated-declarations]
+  606 |     rbgobj_register_mark_func(GTK_TYPE_ACTION, rb_gtk3_action_mark);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25,
+                 from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:252,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkaction.h:96:14: note: declared here
+   96 | GType        gtk_action_get_type               (void) G_GNUC_CONST;
+      |              ^~~~~~~~~~~~~~~~~~~
+rb-gtk3.c:610:5: warning: 'gtk_action_group_get_type' is deprecated [-Wdeprecated-declarations]
+  610 |     rbgobj_register_mark_func(GTK_TYPE_ACTION_GROUP, rb_gtk3_action_group_mark);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:254,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:173:17: note: declared here
+  173 | GType           gtk_action_group_get_type                (void) G_GNUC_CONST;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+rb-gtk3.c:613:5: warning: 'gtk_ui_manager_get_type' is deprecated [-Wdeprecated-declarations]
+  613 |     rbgobj_register_mark_func(GTK_TYPE_UI_MANAGER, rb_gtk3_ui_manager_mark);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/gtk.h:284,
+                 from rb-gtk3.h:24,
+                 from rb-gtk3-private.h:33,
+                 from rb-gtk3.c:21:
+F:/ruby/Ruby26-x64/msys64/mingw64/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:128:16: note: declared here
+  128 | GType          gtk_ui_manager_get_type            (void) G_GNUC_CONST;
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+linking shared-object gtk3.so
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gtk3-3.4.3/ext/gtk3
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 gtk3.so ./.gem.20200604-5032-d0wau6
+if test -n ""; then			\
+  /usr/bin/mkdir -p ;				\
+  /usr/bin/install -c -m 644 ruby-gtk3.pc ;		\
+fi

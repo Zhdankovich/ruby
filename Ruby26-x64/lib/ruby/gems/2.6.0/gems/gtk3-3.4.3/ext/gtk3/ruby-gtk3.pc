@@ -1,0 +1,3 @@
+Name: Ruby/GTK3
+Description: Ruby bindings for GTK+ Graphical UI Library
+Version: 3.4.3

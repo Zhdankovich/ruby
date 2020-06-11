@@ -1,0 +1,25 @@
+prefix=/mingw64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+bindir=${exec_prefix}/bin
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+includedir=${prefix}/include
+
+g_ir_scanner=${bindir}/g-ir-scanner
+g_ir_compiler=${bindir}/g-ir-compiler.exe
+g_ir_generate=${bindir}/g-ir-generate.exe
+girdir=${datadir}/gir-1.0
+typelibdir=${libdir}/girepository-1.0
+
+Cflags: -I${includedir}/gobject-introspection-1.0 -I${prefix}/lib/libffi-3.2.1/include
+
+Requires: glib-2.0 gobject-2.0
+Requires.private: gmodule-no-export-2.0 libffi
+Libs: -L${libdir} -lgirepository-1.0
+Libs.private: -lffi
+
+
+Name: gobject-introspection
+Description: GObject Introspection
+Version: 1.64.0

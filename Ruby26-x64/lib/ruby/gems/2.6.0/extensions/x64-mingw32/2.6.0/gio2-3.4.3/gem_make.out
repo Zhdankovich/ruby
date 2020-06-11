@@ -1,0 +1,48 @@
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gio2-3.4.3/ext/gio2
+F:/ruby/Ruby26-x64/bin/ruby.exe -I F:/ruby/Ruby26-x64/lib/ruby/2.6.0 -r ./siteconf20200604-5032-ouzis7.rb extconf.rb
+checking for --enable-debug-build option... no
+checking for -Wall option to compiler... yes
+checking for -Waggregate-return option to compiler... yes
+checking for -Wcast-align option to compiler... yes
+checking for -Wextra option to compiler... no
+checking for -Wformat=2 option to compiler... yes
+checking for -Winit-self option to compiler... yes
+checking for -Wlarger-than-65500 option to compiler... yes
+checking for -Wmissing-declarations option to compiler... yes
+checking for -Wmissing-format-attribute option to compiler... yes
+checking for -Wmissing-include-dirs option to compiler... yes
+checking for -Wmissing-noreturn option to compiler... yes
+checking for -Wmissing-prototypes option to compiler... yes
+checking for -Wnested-externs option to compiler... no
+checking for -Wold-style-definition option to compiler... yes
+checking for -Wpacked option to compiler... yes
+checking for -Wp,-D_FORTIFY_SOURCE=2 option to compiler... yes
+checking for -Wpointer-arith option to compiler... yes
+checking for -Wundef option to compiler... yes
+checking for -Wout-of-line-declaration option to compiler... no
+checking for -Wunsafe-loop-optimizations option to compiler... yes
+checking for -Wwrite-strings option to compiler... yes
+checking for Homebrew... no
+checking for gio-2.0... yes
+checking for gobject-introspection-1.0... yes
+creating ruby-gio2.pc
+creating Makefile
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gio2-3.4.3/ext/gio2
+make "DESTDIR=" clean
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gio2-3.4.3/ext/gio2
+make "DESTDIR="
+generating gio2-x64-mingw32.def
+compiling rb-gio2-application.c
+compiling rb-gio2-pollable-source.c
+compiling rb-gio2.c
+linking shared-object gio2.so
+
+current directory: F:/ruby/Ruby26-x64/lib/ruby/gems/2.6.0/gems/gio2-3.4.3/ext/gio2
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 gio2.so ./.gem.20200604-5032-14x1wx2
+if test -n ""; then			\
+  /usr/bin/mkdir -p ;				\
+  /usr/bin/install -c -m 644 ruby-gio2.pc ;		\
+fi
